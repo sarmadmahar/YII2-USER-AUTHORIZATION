@@ -1,5 +1,11 @@
 {
-    "require": {
-        "vendor/admin": "1.3.2",
-    }
+"require": {
+	"vendor/admin": "*"
+},
+"repositories": [
+    {
+        "type": "vcs",
+    	"url": "https://github.com/sarmadmahar/YII2-USER-AUTHORIZATION"
+	}
+]
 }
